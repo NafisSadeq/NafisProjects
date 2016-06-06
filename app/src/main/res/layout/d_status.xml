@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3E5F5">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:onClick="goto3"
+        android:background="#ff7e51c2"
+        android:orientation="horizontal"
+        android:padding="5dip"
+        android:layout_margin="5dp">
+
+        <!--  ListRow Left sied Thumbnail image -->
+        <LinearLayout android:id="@+id/thumbnail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/image_bg"
+            android:layout_marginRight="5dip">
+
+            <ImageView
+                android:id="@+id/list_image"
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:src="@drawable/propic2"/>
+
+        </LinearLayout>
+
+        <!-- Title Of Song-->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Monowar Anjum"
+            android:textColor="#ffffff"
+            android:typeface="sans"
+            android:textSize="20dip"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/thumbnail" />
+
+        <!-- Artist Name -->
+
+        <!-- Rightend Duration -->
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/duration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="left|right"
+        android:text="5:45 PM"
+        android:layout_marginRight="5dip"
+        android:textSize="15dip"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/title"
+        android:background="#F3E5F5"
+        android:layout_gravity="center_horizontal"
+        android:padding="5dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textView5"
+        android:padding="15dp"
+
+        android:text=" You are never gonna find peace, not until you admit what you really are ."
+        android:textColor="@android:color/black"
+        android:background="@drawable/round_text"
+        android:layout_margin="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="15 People likes this"
+        android:id="@+id/textView6"
+        android:textColor="@android:color/black"
+        android:padding="10dp"
+        android:background="#F3E5F5" />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Like"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/button"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

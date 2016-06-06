@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">NanoChat</string> <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_name">Your name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="action_sign_in">Login</string>
+    <string name="invalid_email">This email address is invalid</string>
+    <string name="invalid_password">Invalid username or password</string>
+    <string name="invalid_info">Username Exists</string>
+    <string name="Password_matching">Password did not match</string>
+    <string name="incorrect_password">Password is incorrect</string>
+    <string name="field_required">This field is required</string>
+    <string name="hint">Type emoji here</string>
+    <string name="i_love_emojicon">I \ue32d emojicon</string>
+    <string name="use_system_default">Use system default emojicon</string>
+    <style name="DefaultButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#979797</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#f9f9f9</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffBE80FF">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"></LinearLayout>
+
+    <Button android:id="@+id/HomeButton" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="HOME"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff7e51c2"
+        android:enabled="true"
+        android:onClick="gotoHome" />
+
+    <Button android:id="@+id/ChatButton" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="CHAT"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff7e51c2"
+        android:onClick="gotoChat" />
+
+    <Button android:id="@+id/VideoButton" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="VIDEO CALL"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff7e51c2"
+        android:onClick="gotoCall" />
+
+    <Button android:id="@+id/DummyChatButton" style="?android:textAppearanceSmall"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:text="Dummy"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:background="#ff7e51c2"
+        android:onClick="gotoHome" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"></LinearLayout>
+
+</LinearLayout>
